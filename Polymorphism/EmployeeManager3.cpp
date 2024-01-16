@@ -108,7 +108,7 @@ class EmployeeHandler
         void ShowAllSalaryInfo() const
         {
             /*
-            for(int i = 0; i < empNum; i++)
+            for(int i = 0; i < empNum; i++)  가상함수 때문에 오버라이딩에 에러가 발생
                 empList[i] -> ShowSalaryInfo();
             */
         }
